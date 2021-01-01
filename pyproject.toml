@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pycontti"
+version = "0.1.0"
+description = "PyContti is a Python script having functionality to make deployment of Docker containers easier"
+authors = ["Jukka Aho <ahojukka5@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
